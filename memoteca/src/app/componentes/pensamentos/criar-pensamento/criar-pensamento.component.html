@@ -1,0 +1,66 @@
+<section class="container criar-pensamentos ff-inter">
+  <header class="herader">
+    <h2>
+      Adicione um <br />
+      pensamento novo:
+    </h2>
+  </header>
+  <form>
+    <label for="pensamento">Pensamento:</label>
+    <input class="input" type="textarea" name="pensamento" id="pensamento" placeholder="Digite o pensamento" />
+
+    <label for="autoria">Autoria ou fonte:</label>
+    <input class="input" type="text" name="autoria" id="autoria" placeholder="Digite a autoria ou fonte" />
+
+    <label for="modelo">Selecione o modelo do card:</label>
+    <div class="container-radio">
+      <div class="radio-modelo">
+          <label for="modelo1">
+            <input type="radio" id="modelo1" name="modelo-card" value="modelo1" />
+            <div class="custom-radio">
+              <span></span>
+            </div>
+            <span>Modelo 1</span>
+          </label>
+          <div class="modelo modelo1 ff-roboto-mono">
+            <img src="../../../../assets/modelo1.png" alt="Imagem de aspas azuis" />
+            <p class="conteudo">Aqui vai o conteúdo</p>
+            <p class="autoria"><b>Aqui vai a autoria</b></p>
+          </div>
+      </div>
+
+      <div class="radio-modelo">
+          <label for="modelo2">
+            <input type="radio" id="modelo2" name="modelo-card" value="modelo2" />
+            <div class="custom-radio">
+              <span></span>
+            </div>
+            <span>Modelo 2</span>
+          </label>
+          <div class="modelo modelo2 ff-roboto-mono">
+            <img src="../../../../assets/modelo2.png" alt="Imagem de aspas azuis claro" />
+            <p class="conteudo">Aqui vai o conteúdo</p>
+            <p class="autoria"><b>Aqui vai a autoria</b></p>
+          </div>
+      </div>
+      <div class="radio-modelo">
+        <label for="modelo3">
+          <input type="radio" id="modelo3" name="modelo-card" value="modelo3" />
+          <div class="custom-radio">
+            <span></span>
+          </div>
+          <span>Modelo 3</span>
+        </label>
+        <div class="modelo modelo1 ff-roboto-mono">
+          <img src="../../../../assets/modelo3.png" alt="Imagem de aspas verdes" />
+          <p class="conteudo">Aqui vai o conteúdo</p>
+          <p class="autoria"><b>Aqui vai a autoria</b></p>
+        </div>
+      </div>
+      <div class="acoes">
+        <button class="botao">Salvar</button>
+        <button class="botao">Cancelar</button>
+      </div>
+    </div>
+  </form>
+</section>
