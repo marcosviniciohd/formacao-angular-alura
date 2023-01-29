@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "memoteca": {
+    "memoteca_new": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/memoteca",
+            "outputPath": "dist/memoteca_new",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "memoteca:build:production"
+              "browserTarget": "memoteca_new:build:production"
             },
             "development": {
-              "browserTarget": "memoteca:build:development"
+              "browserTarget": "memoteca_new:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "memoteca:build"
+            "browserTarget": "memoteca_new:build"
           }
         },
         "test": {
@@ -96,6 +96,6 @@
     }
   },
   "cli": {
-    "analytics": "9c38762f-39fd-4e66-b04c-976dbe716d97"
+    "analytics": "1b4ba6c8-0f7b-46a1-a705-1178ddcfb864"
   }
 }
