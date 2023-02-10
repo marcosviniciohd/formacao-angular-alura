@@ -1,0 +1,24 @@
+{
+  "pensamentos": [
+    {
+    "id" : 1,
+    "conteudo": "Angular é massa!",
+    "autoria": "Nay",
+    "modelo": "Modelo1"
+    },
+    {
+      "id" : 2,
+      "conteudo": "Estudando Angular na Alura",
+      "autoria": "Alura",
+      "modelo": "Modelo2"
+    },
+    {
+      "id" : 3,
+      "conteudo": "Diretivas é legal",
+      "autoria": "Marcos",
+      "modelo": "Modelo3"
+    }
+
+  ]
+}
+
