@@ -1,28 +1,3 @@
 {
-  "pensamento": [
-    {
-      "id": 1,
-      "conteudo": "Aprendendo Angular com a Alura",
-      "autorial": "Nay",
-      "modelo": "modelo1"
-    },
-    {
-      "id": 1,
-      "conteudo": "Aprendendo Angular com a Alura",
-      "autorial": "Nay",
-      "modelo": "modelo1"
-    },
-    {
-      "id": 1,
-      "conteudo": "Aprendendo Angular com a Alura",
-      "autorial": "Nay",
-      "modelo": "modelo1"
-    },
-    {
-      "id": 1,
-      "conteudo": "Aprendendo Angular com a Alura",
-      "autorial": "Nay",
-      "modelo": "modelo1"
-    }
-  ]
+  "pensamento": []
 }
